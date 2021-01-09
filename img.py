@@ -3,9 +3,9 @@ from PIL import Image
 import xml.etree.ElementTree as ET
 
 # 图片的路径
-dirs = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_img'
+dirs = r''
 # xml文件的路径
-xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_xml'
+xml_folder = r''
 
 for filename in os.listdir(dirs):
     truedir = dirs + r'\\'
