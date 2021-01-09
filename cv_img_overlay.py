@@ -7,11 +7,11 @@ import random
 # 为防止出现对应xml文件不存在(即该图片没有标定框)的情况
 # 读取文件名应从xml文件夹中读取
 
-bg_folder = r'D:\Users\NPCD\Documents\Lab\temp\background'
-img_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\images'
-xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\xmls'
-out_img_folder = r'D:\Users\NPCD\Documents\Lab\temp\overlay_img\screen\images'
-out_xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\overlay_img\screen\xmls'
+bg_folder = r''
+img_folder = r''
+xml_folder = r''
+out_img_folder = r''
+out_xml_folder = r''
 
 if os.path.exists(out_img_folder):
     shutil.rmtree(out_img_folder)
