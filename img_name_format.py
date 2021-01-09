@@ -1,8 +1,8 @@
 import os
 import shutil
 
-img_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_img'
-xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_xml'
+img_folder = r''
+xml_folder = r''
 
 img_count = 1
 
