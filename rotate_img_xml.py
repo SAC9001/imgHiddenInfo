@@ -4,35 +4,35 @@ import shutil
 from PIL import Image, ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-origin_img_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_img'
-origin_xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_xml'
+origin_img_folder = r''
+origin_xml_folder = r''
 
-out_img_rotate90_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_img_rotate_90'
+out_img_rotate90_folder = r''
 if os.path.exists(out_img_rotate90_folder):
     shutil.rmtree(out_img_rotate90_folder)
 os.makedirs(out_img_rotate90_folder)
 
-out_img_rotate180_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_img_rotate_180'
+out_img_rotate180_folder = r''
 if os.path.exists(out_img_rotate180_folder):
     shutil.rmtree(out_img_rotate180_folder)   
 os.makedirs(out_img_rotate180_folder)
 
-out_img_rotate270_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_img_rotate_270'
+out_img_rotate270_folder = r''
 if os.path.exists(out_img_rotate270_folder):
     shutil.rmtree(out_img_rotate270_folder)   
 os.makedirs(out_img_rotate270_folder)
 
-out_xml_rotate90_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_xml_rotate_90'
+out_xml_rotate90_folder = r''
 if os.path.exists(out_xml_rotate90_folder):
     shutil.rmtree(out_xml_rotate90_folder)
 os.makedirs(out_xml_rotate90_folder)
 
-out_xml_rotate180_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_xml_rotate_180'
+out_xml_rotate180_folder = r''
 if os.path.exists(out_xml_rotate180_folder):
     shutil.rmtree(out_xml_rotate180_folder)   
 os.makedirs(out_xml_rotate180_folder)
 
-out_xml_rotate270_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\IDcard_xml_rotate_270'
+out_xml_rotate270_folder = r''
 if os.path.exists(out_xml_rotate270_folder):
     shutil.rmtree(out_xml_rotate270_folder)   
 os.makedirs(out_xml_rotate270_folder)
