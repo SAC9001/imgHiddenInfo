@@ -5,16 +5,9 @@ import pickle
 
 classes = ['IDcard']
 
-xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\xml'
-txt_folder = r'D:\Users\NPCD\Documents\Lab\temp\IDcard_67\labels'
-# xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_xml_rotate_90'
-# txt_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_txt_rotate_90'
-# xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_xml_rotate_180'
-# txt_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_txt_rotate_180'
-# xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_xml_rotate_270'
-# txt_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_txt_rotate_270'
-# xml_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_xml'
-# txt_folder = r'D:\Users\NPCD\Documents\Lab\temp\screen_236\screen_txt'
+xml_folder = r''
+txt_folder = r''
+
 if os.path.exists(txt_folder):
     shutil.rmtree(txt_folder)
 os.makedirs(txt_folder)
